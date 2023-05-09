@@ -1,5 +1,5 @@
-import snowflake.connector
 import pandas as pd
+import snowflake.connector
 import streamlit as st
 
 conn = snowflake.connector.connect(
