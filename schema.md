@@ -45,3 +45,30 @@ This table includes detailed metrics of all the assets in the appalachian region
 - WATER_PROD: Number
 - WELL_CF: Boolean
 - WELL_NAME: Varchar
+
+
+**Table 2: DATA_TRANSFER.TSDB.VW_TSDB_ZONE_MASTER** (Stores master records from all zones)
+
+This table includes all the zones linked to the assets in the telemetry table 1
+
+- Class: Varchar	
+- DISTRICT_CODE: Varchar	
+- DISTRICT_NAME: Varchar	
+- DIVISION_CODE: Varchar	
+- DIVISION_NAME: Varchar	
+- FDC Site Code: Varchar	
+- FDC Site Name: Varchar	
+- Phase: Varchar	
+- Prod Method: Varchar	
+- REGION_CODE: Varchar	
+- REGION_NAME: Varchar	
+- Route Code: Varchar	
+- Route Foreman: Varchar	
+- Route Name: Varchar	
+- Type: Varchar	
+- WELL_CODE: Varchar	
+- WELL_HID: Number	
+- WELL_NAME: Varchar	
+- ZONE_CODE: Varchar	
+- ZONE_HID: Number	
+- ZONE_NAME: Varchar
